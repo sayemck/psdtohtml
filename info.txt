@@ -1,0 +1,5 @@
+footer color-#e2e2e2;
+p color-5d5d5d
+font arial
+email color 999898
+text color-f58400

@@ -1,0 +1,252 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+/*start wrapper*/
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+/*end wrapper*/
+
+/*start header*/
+.header{
+	width: 100%;
+	overflow: hidden;
+}
+
+/*logo*/
+.logo{
+	/*border: 2px solid red;*/
+	display: inline-block;
+	margin-bottom:10px;
+	width: 21%;
+}
+.logo img{
+	overflow: hidden;
+}
+.menu{
+	/*border: 2px solid red;*/
+	margin:0;
+	width: 78%;
+}
+.menu ul{
+	margin: 0;
+	list-style:none;
+	margin-top: 20px;
+	float: right;
+}
+#home{
+	color: black;
+}
+.menu ul li{
+	display: inline-block;
+	font-family:arial;
+	font-weight: bold;
+	font-size: 16px;
+	margin:17px;
+	text-transform: uppercase;
+	color:#f58400;
+}
+.menu label{
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: arial;
+	color:#999898;
+	margin-right: 18px;
+	float: right;
+}
+/*end header*/
+/*start service*/
+.services{
+	margin: 0;
+	width: 100%;
+	position:relative;
+}
+.services img{
+	width: 100%;
+}
+.view_portfolio{
+	position: absolute;
+	left: 34px;
+	bottom:68px;	
+}
+.view_portfolio button{
+	background:#090909;
+	border-style: none;
+	padding: 14px 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fe9b00;
+	text-transform:uppercase;
+}
+.view_portfolio span{
+	color: #999898;
+	margin-right:43px;
+}
+/*end service*/
+
+/*start contant*/
+.contant{
+	/*border: 2px solid red;*/
+	width: 100%;
+	margin: 0;
+
+}
+.contant1{
+	margin-top:6px;
+	width: 31%;
+	display: inline-block;
+	margin-right:17px;
+	overflow: hidden;
+}
+#redmore{
+	width:70px;
+	height: 10px;
+}
+.mark{
+	margin-right:10px;
+}
+.contant1 h2{
+	font-size:20px;
+	margin:0;
+	font-family:arial;
+	text-transform: uppercase;
+}
+.contant1 h4{
+	font-family: arial;
+	font-style: italic;
+	font-size: 14px;
+	color: #090909;
+}
+
+.contant1 p{
+	text-align:justify;
+	font-family: serif;
+	color: #5d5d5d;
+}
+.lineimg{
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+}
+/*end contant*/
+.profile{
+	/*border: 2px solid red;*/
+	width: 100%;
+	position: relative;
+}
+.our_profile{
+	width:23%;
+	display: inline-block;
+	margin-right: 13px;
+	overflow: hidden;
+}
+.our_profile img{
+	width:100%;
+}
+.our_profile h2{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.btn{
+	background:#fe9b00;
+	position: absolute;
+	margin-left:168px;
+	padding: 5px 5px;
+	bottom: 26px;
+	border-style:none;
+	font-weight: bold;
+}
+.blog_update{
+	/*border: 2px solid green;*/
+	width: 100%;
+	height:160px;
+
+}
+.blog_updates{
+	width: 72%;
+	/*border: 2px solid red;*/
+	display: inline-block;
+}
+.blog_updates h2{
+	font-family: arial;
+	font-size:17px; 
+	text-transform: uppercase;
+}
+.blog_updates p{
+	font-family: arial;
+	text-align:justify;
+}
+.conenct{
+	width: 27%;
+	display: inline-block;
+}
+.conenct_images h3{
+	font-size: 16px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+.conenct_images img{
+	width: 30px;
+	height: 30px;
+	padding:6px;	
+}
+/*start footer*/
+.footer{
+	/*border: 2px solid green;*/
+	width:100%;
+	height: 100px;
+	background: #e2e2e2;
+	overflow: hidden;
+	color: #5d5d5d;
+
+}
+.footer_menu{
+	/*border: 2px solid red;*/
+	width: 82%;
+	display: inline-block;
+
+}
+.footer_menu ul{
+	margin: 0;
+	list-style:none;
+	margin-top: 25px;
+}
+.footer_menu ul li{
+	display: inline-block;
+	font-family:arial;
+	font-size: 13px;
+	margin:5px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.footer_logo{
+	/*border: 2px solid red;*/
+	display: block;
+}
+.footer_logo img{
+	width:130px;
+	height:70px;
+	margin-right: 42px;
+	margin-top:18px;
+}
+.copy h4{
+	margin-left: 42px;
+	margin-top: 5px;
+	font-size: 13px;
+	font-family: arial;
+	color: #5d5d5d;
+}
+/*end footer*/
